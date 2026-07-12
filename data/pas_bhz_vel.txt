@@ -1,0 +1,15 @@
+Error 404: Not Found
+
+The Timeseries webservice was unable to find any data for your request. No data found for:CI,PAS,--,BHZ,2024-08-12T19:20:20.000,2024-08-12T19:21:30.000
+
+Usage details are available from http://service.iris.edu/irisws/timeseries/1
+
+Request:
+https://service.iris.edu/irisws/timeseries/1/query?net=CI&sta=PAS&loc=--&cha=BHZ&starttime=2024-08-12T19:20:20&endtime=2024-08-12T19:21:30&correct=true&units=VEL&format=ascii1
+
+Request Submitted:
+2026/07/12 07:16:19.806 GMT
+
+Service Version:
+ws-timeseries:1.6.2
+li4:84
