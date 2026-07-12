@@ -55,3 +55,12 @@ contamination its error is now ~16x lower than any non-robust method in the
 suite while remaining near-best on clean and noisy data. Known open problems,
 failure modes, and the improvement queue are tracked in
 `docs/RESEARCH_LOG.md` Steps 8–13 of each version.
+
+## Quick Start
+```python
+import numpy as np
+from alprd import robust_differentiation
+
+t = np.sort(np.random.uniform(0, 10, 100))
+y = np.sin(t) + np.random.normal(0, 0.1, 100)
+derivative = robust_differentiation(t, y)
